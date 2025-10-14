@@ -227,3 +227,10 @@ A arquitetura de microsserviços proposta foi desenhada para resolver esses prob
 ### 6. **Conclusão**
 
 A arquitetura de microsserviços proposta resolve os principais problemas identificados na entrevista com o CEO da AlgaSensors, oferecendo uma solução escalável, resiliente e de fácil manutenção. Com a centralização de dados, alertas em tempo real, histórico de temperaturas e configuração unificada de sensores, a empresa estará melhor preparada para atender às necessidades dos clientes e crescer de forma sustentável.
+
+
+## Github Multimodules
+Caso o Git não reconheça os submódulos, basta executar esse comando: 
+```shell
+git submodule update --init --recursive
+```
