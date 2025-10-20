@@ -227,3 +227,11 @@ A arquitetura de microsserviços proposta foi desenhada para resolver esses prob
 ### 6. **Conclusão**
 
 A arquitetura de microsserviços proposta resolve os principais problemas identificados na entrevista com o CEO da AlgaSensors, oferecendo uma solução escalável, resiliente e de fácil manutenção. Com a centralização de dados, alertas em tempo real, histórico de temperaturas e configuração unificada de sensores, a empresa estará melhor preparada para atender às necessidades dos clientes e crescer de forma sustentável.
+
+
+## Rest client
+Pode instanciar desse jeito, porém, é melhor na forma abaixo, o motivo é que por padrão, você não tem algumas bibliotecas/dependências
+como o Jackson, por exemplo.
+```java
+private final RestClient restClient = RestClient.create("http://localhost:8082");
+```
