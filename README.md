@@ -235,3 +235,6 @@ como o Jackson, por exemplo.
 ```java
 private final RestClient restClient = RestClient.create("http://localhost:8082");
 ```
+
+## RabbitMQ UI
+http://localhost:15672/
